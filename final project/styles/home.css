@@ -1,0 +1,139 @@
+.nav1{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;}
+    .nav2{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;}
+    .nav2 a{text-decoration: none;
+    color: black;}
+    .nav1 a:hover{color: brown;cursor: pointer;}
+    header {position: sticky;
+        top:0px;
+        z-index:1;
+    }
+    #head{text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left:100px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+    #head:hover{color: brown; cursor: pointer;}
+
+  h1 {text-align: center;}
+
+  .post1 {display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid grey 1px;
+    width: 220px;
+    height: 420px;
+    background-color:bisque;
+    position: relative;
+    left:300px;
+    top:100px;}
+    .post2 {display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid grey 1px;
+        width: 220px;
+        height: 470px;
+        background-color:bisque;
+        position: relative;
+        left:300px;
+        top:100px;}
+        .post3 {display: flex;
+            flex-direction:column;
+            align-items: center;
+            border: solid grey 1px;
+            width: 220px;
+            height: 380px;
+            background-color:bisque;
+            position: relative;
+            left:300px;
+            top:100px;}
+
+.mainpost {display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 700px;
+position: relative;
+left:100px;
+}
+.post4 {display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid grey 1px;
+    width: 220px;
+    height: 400px;
+    background-color:bisque;
+    position: relative;
+    left:300px;
+    top:60px;}
+    .post5 {display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid grey 1px;
+        width: 220px;
+        height: 350px;
+        background-color:bisque;
+        position: relative;
+        left:300px;
+        bottom:-110px}
+        .post6 {display: flex;
+            flex-direction:column;
+            align-items: center;
+            border: solid grey 1px;
+            width: 220px;
+            height: 400px;
+            background-color:bisque;
+            position: relative;
+            left:300px;
+            top:20px;}
+            .mainpost2 {display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 700px;
+                position: relative;
+                left:100px;}
+
+                .foot{display: flex;
+                    flex-direction: column;}
+                    .foot1{display: flex;
+                    flex-direction: column;}
+                    .foot3{display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 600px;
+                    position: relative;
+                    left:460px;
+                    font-size:20px}
+                    h2{text-align: center;
+                        position: relative;
+                        bottom:-10px
+                    }
+                    footer {background-color: bisque;
+                        height: 300px;}
+                    input {padding:10px}
+                    Button {padding:10px;
+                    position: relative;
+                    right:200px;
+                    bottom:50px;
+                    border-radius: 10px;
+                    background-color: rgb(237, 207, 207)}
+                    button:hover {color:rgb(222, 75, 112);
+                        cursor: pointer;}
+                    img:hover{opacity: 0.5;
+                        cursor: pointer;
+                    }
+                    input:focus{color:rgb(228, 117, 117);}
+                    
+                    body {background-image: url(/images/background.webp);}
+                    p::first-letter{color: rgb(253, 7, 7);}
+                    p::selection{color: rgb(243, 182, 103);}
+                    h3:hover{color: rgb(241, 121, 121);
+                        cursor: pointer;
+                    }

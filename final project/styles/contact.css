@@ -1,0 +1,76 @@
+.nav1{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;}
+    .nav2{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;}
+    .nav2 a{text-decoration: none;
+    color: black;}
+    .nav1 a:hover{color: brown;cursor: pointer;}
+    header {position: sticky;
+        top:0px;
+        z-index:1;
+    }
+    #head{text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left:100px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+    #head:hover{color: brown; cursor: pointer;}
+    
+    .foot{display: flex;
+        flex-direction: column;}
+        .foot1{display: flex;
+        flex-direction: column;}
+        .foot3{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 600px;
+        position: relative;
+        left:460px;
+        font-size:20px}
+        h2{text-align: center;
+            position: relative;
+            bottom:-10px;
+            text-shadow: rgb(246, 241, 242) 3px 3px 3px;
+        }
+        footer {background-color: bisque;
+            height: 300px;}
+        input {padding:10px}
+        Button {padding:10px;
+        position: relative;
+        right:200px;
+        bottom:50px;
+        border-radius: 10px;
+        background-color: rgb(237, 207, 207)}
+        button:hover {color:rgb(222, 75, 112);
+            cursor: pointer;}
+        img:hover{opacity: 0.5;
+            cursor: pointer;
+        }
+        input:focus{color:rgb(228, 117, 117);}
+        
+        .contact {position: relative;
+            top:200px}
+    
+    body{background-color: antiquewhite;}
+    .textemail{display: flex;
+    flex-direction: column;
+width: 500px;
+position: relative;
+left: 500px;
+top: 100px;}
+h1{font-size:25px;}
+p::first-letter{color: rgb(253, 7, 7);}
+p::selection{color: rgb(243, 182, 103);}
+
+
+    
+
+            
+        
